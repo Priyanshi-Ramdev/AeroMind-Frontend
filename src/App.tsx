@@ -8,6 +8,7 @@ import { BaggageBelt } from './components/BaggageBelt';
 import { RosterCoordination } from './components/RosterCoordination';
 import { RetailConsole } from './components/RetailConsole';
 import { AICopilot } from './components/AICopilot';
+import { OpsTerminal } from './components/OpsTerminal';
 import {
   Activity,
   Plane,
@@ -69,7 +70,7 @@ function App() {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-[#050816] text-white">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-[#080718] text-white">
         <div className="relative flex flex-col items-center justify-center p-8 glass-panel rounded-3xl border border-blue-500/20 max-w-md w-full">
           <Activity className="animate-spin text-blue-500 mb-6" size={48} style={{ animationDuration: '3s' }} />
           <h1 className="text-xl font-bold font-mono tracking-widest text-glow-blue">AEROMIND AOCC</h1>
@@ -85,7 +86,7 @@ function App() {
   const activeAlertsCount = incidents.filter((i) => !i.resolved).length;
 
   return (
-    <div className="min-h-screen bg-[#050816] text-slate-200 flex flex-col overflow-hidden">
+    <div className="min-h-screen bg-[#080718] text-slate-200 flex flex-col overflow-hidden">
       {/* Top Banner Control Room Header */}
       <header className="glass-panel border-b border-blue-500/20 px-6 py-4 flex flex-col lg:flex-row justify-between items-center gap-4 shrink-0 shadow-lg">
         {/* Brand logo */}
@@ -316,8 +317,9 @@ function App() {
         </main>
       </div>
 
-      {/* Floating Copilot widget */}
+      {/* Floating Copilot and CLI terminal widgets */}
       <AICopilot />
+      <OpsTerminal />
     </div>
   );
 }
