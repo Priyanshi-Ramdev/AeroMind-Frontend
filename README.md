@@ -18,6 +18,7 @@ AeroMind is a world-class, high-fidelity digital cockpit designed for Airport Op
 * **💼 Baggage Claim Gantry**: Conveyor belt status monitors with mechanical speed tracking and manual sorter jam simulations.
 * **🛍️ Retail Revenue Ledger**: Continuous sales invoice streams, shop rankings, and cumulative daily revenue accrual tracking.
 * **🤖 Context-Aware AI Copilot**: A drawer assistant connected directly to the Zustand store that parses state data and answers operations queries instantly.
+* **⌨️ Interactive Dispatcher CLI Console**: A slide-up hacker terminal console with mechanical key clicks and alarm sound pings synthesized via the Web Audio API. Operators can execute codes like `alert atc`, `sysinfo`, `flights`, and `resolve all` to trigger or manage live simulated incidents.
 
 ---
 
