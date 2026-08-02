@@ -2,6 +2,8 @@
 
 **"Where real-time airport telemetry meets glassmorphic operational intelligence."**
 
+🔗 **Live Demo**: [aeromind-frontend-project.vercel.app](https://aeromind-frontend-project.vercel.app/)
+
 AeroMind is a world-class, high-fidelity digital cockpit designed for Airport Operations Control Centers. Engineered as a mock command platform for high-intensity airport dispatchers, it fuses **8 complex, interconnected real-time datasets** into a seamless, responsive, and stunning dark-mode glassmorphic control station.
 
 ---
